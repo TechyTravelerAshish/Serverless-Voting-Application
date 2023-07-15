@@ -77,7 +77,7 @@ In the **Outputs** section of the cloudformation stack, note that the S3 bucket 
 ```
 sudo yum install -y nodejs
 node -v
-wget https://learn-cantrill-labs.s3.amazonaws.com/aws-serverless-voting-app/voting-app-frontend.zip
+wget https://github.com/TechyTravelerAshish/Serverless-Voting-Application/blob/main/01_LABSETUP/voting-app-frontend.zip
 unzip voting-app-frontend.zip
 cd voting-app-frontend
 ```

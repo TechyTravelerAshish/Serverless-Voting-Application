@@ -155,14 +155,14 @@ By default the lambda functions will get a basic execution role to only send log
 
 # Stage 2 - Frontend
 
-### **Part-1:** Create S3 bucket for website hosting [View Step by Step Screenshots](/aws-serverless-voting-app/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
+### **Part-1:** Create S3 bucket for website hosting [View Step by Step Screenshots](/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
 
 - Move to the S3 bucket console and create a new S3 bucket with name `serverless-voting-app-demo`
 - Choose a region where you have created the backend resources in stage-1
 - Under **Block public access settings** uncheck all ticks and select the acknowledge option.
 - Leave the other options as default and click on **Create Bucket**
 - Under **Properties** scroll down to the **Static Website Hosting**
-- Click edit and select the options as shown in the [screenshots](/aws-serverless-voting-app/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
+- Click edit and select the options as shown in the [screenshots](/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
 - After the changes are saved, you will be able to see the **Bucket website endpoint**
 - Under **Permissions** Edit the bucket policy. Copy the below policy and click on **Save Changes**
 
@@ -181,7 +181,7 @@ By default the lambda functions will get a basic execution role to only send log
 }
 ```
 
-### **Part-2:** Create a Cloud9 IDE to edit the Frontend Javascript code, build the React application and deploy to S3 bucket. [View Step by Step Screenshots](/aws-serverless-voting-app/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
+### **Part-2:** Create a Cloud9 IDE to edit the Frontend Javascript code, build the React application and deploy to S3 bucket. [View Step by Step Screenshots](/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
 
 - Open the Cloud9 IDE and create a new environment.
 - Enter any name for the IDE and leave all the other default options and click on create
@@ -192,12 +192,12 @@ By default the lambda functions will get a basic execution role to only send log
 ```
 sudo yum install -y nodejs
 node -v
-wget https://github.com/ashish3121990/learn-cantrill-io-labs/raw/67c637eb01f752a260a9e246b1a62df5d76b3a14/aws-serverless-voting-app/01_LABSETUP/voting-app-frontend.zip
+wget https://github.com/TechyTravelerAshish/Serverless-Voting-Application/blob/main/01_LABSETUP/voting-app-frontend.zip
 unzip voting-app-frontend.zip
 cd voting-app-frontend
 ```
 
-- As shown in the [screenshots](/aws-serverless-voting-app/02_LABINSTRUCTIONS/readme_stage2_screenshots.md), expand the folder `voting-app-frontend` from the left side file explorer of the IDE.
+- As shown in the [screenshots](/02_LABINSTRUCTIONS/readme_stage2_screenshots.md), expand the folder `voting-app-frontend` from the left side file explorer of the IDE.
 - Inside src, there is a `Vote.js` file. Open the file.
 - You will see that, there are two urls configured in the code `vote_url` for `vote` and `results_fetchurl` for `fetch results`
 - Replace these two URL's with the two urls that you received at the end of stage-1 after creating the API Gateway deployment.

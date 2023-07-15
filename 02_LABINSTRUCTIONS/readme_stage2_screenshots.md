@@ -1,6 +1,6 @@
 # Stage 2 - Frontend
 
-# [1-Click Install](/aws-serverless-voting-app/02_LABINSTRUCTIONS/1-Click-Readme.md)
+# [1-Click Install](/02_LABINSTRUCTIONS/1-Click-Readme.md)
 
 ### **Part-1:** Create S3 bucket for website hosting
 
@@ -94,7 +94,7 @@
 ```
 sudo yum install -y nodejs
 node -v
-wget https://github.com/ashish3121990/learn-cantrill-io-labs/raw/67c637eb01f752a260a9e246b1a62df5d76b3a14/aws-serverless-voting-app/01_LABSETUP/voting-app-frontend.zip
+wget https://github.com/TechyTravelerAshish/Serverless-Voting-Application/blob/main/01_LABSETUP/voting-app-frontend.zip
 unzip voting-app-frontend.zip
 cd voting-app-frontend
 ```
