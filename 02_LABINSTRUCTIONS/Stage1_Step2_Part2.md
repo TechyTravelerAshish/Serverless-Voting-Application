@@ -15,7 +15,7 @@
 ![Screenshots2](./Screenshots/Stage_1/Step_2/Part_2/2.png)
 ![Screenshots3](./Screenshots/Stage_1/Step_2/Part_2/3.png)
 
-- After the function is created, replace the function code with the code from [voting-app-fetch-results.js](/aws-serverless-voting-app/01_LABSETUP/voting-app-fetch-results.js)
+- After the function is created, replace the function code with the code from [voting-app-fetch-results.js](./01_LABSETUP/voting-app-fetch-results.js)
 - **Note:** If you have used a different name for the DynamoDB table, change the **Table Name** in the code as well.
 
 ![Screenshots4](./Screenshots/Stage_1/Step_2/Part_2/4.png)
