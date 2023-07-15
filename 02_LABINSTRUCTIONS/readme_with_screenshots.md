@@ -4,12 +4,12 @@ In this mini project you will create a completely serverless voting application 
 
 ![Architecture](/Architecture-ServerlessVotingApp.png)
 
-# [1-Click Install](/aws-serverless-voting-app/02_LABINSTRUCTIONS/1-Click-Readme.md)
+# [1-Click Install](/02_LABINSTRUCTIONS/1-Click-Readme.md)
 
 # Stage 1 - Backend
 
 - Choose a region where you want to deploy the application and use the same region for creating all the resources in below stages.
-- [Click here to go back to Readme](/aws-serverless-voting-app/README.md)
+- [Click here to go back to Readme](/README.md)
 
 ## Step 1 - Create a DynamoDB table
 
@@ -42,7 +42,7 @@ In this mini project you will create a completely serverless voting application 
 
 ![Screenshots3](./Screenshots/Stage_1/Step_2/Part_1/3.png)
 
-- After the function is created, replace the function code with the code from [voting-app-store-vote.py](/aws-serverless-voting-app/01_LABSETUP/voting-app-store-vote.py)
+- After the function is created, replace the function code with the code from [voting-app-store-vote.py](/01_LABSETUP/voting-app-store-vote.py)
 
 ![Screenshots4](./Screenshots/Stage_1/Step_2/Part_1/4.png)
 
@@ -65,7 +65,7 @@ In this mini project you will create a completely serverless voting application 
 
 ![Screenshots3](./Screenshots/Stage_1/Step_2/Part_2/3.png)
 
-- After the function is created, replace the function code with the code from [voting-app-fetch-results.js](/aws-serverless-voting-app/01_LABSETUP/voting-app-fetch-results.js)
+- After the function is created, replace the function code with the code from [voting-app-fetch-results.js](/01_LABSETUP/voting-app-fetch-results.js)
 - **Note:** If you have used a different name for the DynamoDB table, change the **Table Name** in the code as well.
 
 ![Screenshots4](./Screenshots/Stage_1/Step_2/Part_2/4.png)
@@ -280,5 +280,5 @@ By default the lambda functions will get a basic execution role to only send log
 ![Screenshots](./Screenshots/Stage_1/Step_3/23.png)
 
 
-# [Go to Stage 2 - Frontend](/aws-serverless-voting-app/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
+# [Go to Stage 2 - Frontend](/02_LABINSTRUCTIONS/readme_stage2_screenshots.md)
 
