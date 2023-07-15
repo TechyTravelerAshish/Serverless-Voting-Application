@@ -2,7 +2,7 @@
 
 In this mini project you will create a completely serverless voting application in two stages. First you will create the backend using API Gateway, Lambda functions and DynamoDB table. Then you will create the frontend application using ReactJS and deploy it to an S3 bucket for static website hosting which will be delivered using CloudFront CDN. Below is the architecture for this project.
 
-![Architecture](/aws-serverless-voting-app/Architecture-ServerlessVotingApp.png)
+![Architecture](/Architecture-ServerlessVotingApp.png)
 
 # [1-Click Install](/aws-serverless-voting-app/02_LABINSTRUCTIONS/1-Click-Readme.md)
 
